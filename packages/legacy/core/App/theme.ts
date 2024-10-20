@@ -226,14 +226,14 @@ const GrayscaleColors: IGrayscaleColors = {
 }
 
 const BrandColors: IBrandColors = {
-  primary: '#0E8B6F',
-  primaryDisabled: `rgba(16, 163, 127, ${lightOpacity})`,
+  primary: '#10A37F',
+  primaryDisabled: `rgba(16, 163, 127, ${lightOpacity})`,  // Corresponding rgba for #10A37F
   secondary: '#FFFFFFFF',
-  secondaryDisabled: `rgba(16, 163, 127, ${heavyOpacity})`,
-  primaryLight: `rgba(16, 163, 127, ${lightOpacity})`,
+  secondaryDisabled: `rgba(16, 163, 127, ${heavyOpacity})`, // Corresponding rgba for #10A37F
+  primaryLight: `rgba(16, 163, 127, ${lightOpacity})`,      // Corresponding rgba for #10A37F
   highlight: '#FCBA19',
   primaryBackground: '#000000',
-  secondaryBackground: '#222222',
+  secondaryBackground: '#111111',
   modalPrimary: '#10A37F',
   modalSecondary: '#FFFFFFFF',
   modalPrimaryBackground: '#000000',

@@ -27,13 +27,13 @@ const ConnectionLoading: React.FC = () => {
   })
   const credentialInHandDisplayOptions = {
     fill: ColorPallet.notification.infoText,
-    height: 130,
-    width: 130,
+    height: 80,
+    width: 80,
   }
   const animatedCircleDisplayOptions = {
     fill: ColorPallet.notification.infoText,
-    height: 250,
-    width: 250,
+    height: 100,
+    width: 100,
   }
 
   useEffect(() => {
