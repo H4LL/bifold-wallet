@@ -226,18 +226,18 @@ const GrayscaleColors: IGrayscaleColors = {
 }
 
 const BrandColors: IBrandColors = {
-  primary: '#42803E',
-  primaryDisabled: `rgba(53, 130, 63, ${lightOpacity})`,
+  primary: '#0E8B6F',
+  primaryDisabled: `rgba(16, 163, 127, ${lightOpacity})`,
   secondary: '#FFFFFFFF',
-  secondaryDisabled: `rgba(53, 130, 63, ${heavyOpacity})`,
-  primaryLight: `rgba(53, 130, 63, ${lightOpacity})`,
+  secondaryDisabled: `rgba(16, 163, 127, ${heavyOpacity})`,
+  primaryLight: `rgba(16, 163, 127, ${lightOpacity})`,
   highlight: '#FCBA19',
   primaryBackground: '#000000',
-  secondaryBackground: '#313132',
-  modalPrimary: '#42803E',
+  secondaryBackground: '#222222',
+  modalPrimary: '#10A37F',
   modalSecondary: '#FFFFFFFF',
   modalPrimaryBackground: '#000000',
-  modalSecondaryBackground: '#313132',
+  modalSecondaryBackground: '#10A37F',
   modalIcon: GrayscaleColors.white,
   unorderedList: GrayscaleColors.white,
   unorderedListModal: GrayscaleColors.white,
@@ -286,98 +286,98 @@ export const ColorPallet: IColorPallet = {
 export const TextTheme: ITextTheme = {
   headingOne: {
     fontSize: 38,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   headingTwo: {
     fontSize: 32,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   headingThree: {
     fontSize: 26,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   headingFour: {
     fontSize: 21,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   normal: {
     fontSize: 18,
-    fontWeight: 'normal',
+    fontFamily: 'Roboto-Medium',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   bold: {
     fontSize: 18,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   label: {
     fontSize: 14,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   labelTitle: {
     fontSize: 16,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   labelSubtitle: {
     fontSize: 14,
-    fontWeight: 'normal',
+    fontFamily: 'Roboto-Medium',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   labelText: {
     fontSize: 10,
-    fontWeight: 'normal',
-    fontStyle: 'italic',
+    fontFamily: 'Roboto-MediumItalic',  // Matches the file name
+
     color: ColorPallet.brand.text,
   },
   caption: {
     fontSize: 14,
-    fontWeight: 'normal',
+    fontFamily: 'Roboto-Medium',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   title: {
     fontSize: 20,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.text,
   },
   headerTitle: {
     fontSize: 28,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.brand.headerText,
   },
   modalNormal: {
     fontSize: 18,
-    fontWeight: 'normal',
+    fontFamily: 'Roboto-Medium',  // Matches the file name
     color: ColorPallet.grayscale.white,
   },
   modalTitle: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.grayscale.white,
   },
   modalHeadingOne: {
     fontSize: 38,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.grayscale.white,
   },
   modalHeadingThree: {
     fontSize: 26,
-    fontWeight: 'bold',
+    fontFamily: 'Roboto-Bold',  // Matches the file name
     color: ColorPallet.grayscale.white,
   },
   popupModalText: {
     fontSize: 18,
-    fontWeight: 'normal',
+    fontFamily: 'Roboto-Medium',  // Matches the file name
     color: ColorPallet.grayscale.white,
   },
   settingsText: {
     fontSize: 21,
-    fontWeight: 'normal',
+    fontFamily: 'Roboto-Medium',  // Matches the file name
     color: ColorPallet.brand.text,
   },
 }
