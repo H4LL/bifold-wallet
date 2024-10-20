@@ -537,7 +537,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xanadu.AriesBifold;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xanaducyber.mycelia;
 				PRODUCT_NAME = AriesBifold;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -575,7 +575,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xanadu.AriesBifold;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xanaducyber.mycelia;
 				PRODUCT_NAME = AriesBifold;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
